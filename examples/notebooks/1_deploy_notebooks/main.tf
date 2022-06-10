@@ -17,7 +17,6 @@ module "databricks_workspace_management" {
   source = "../../../"
 
   workspace_url = var.workspace_url
-  dapi_token    = var.dapi_token
   # ------------------------------------------------
   # NOTEBOOK
   # ------------------------------------------------
